@@ -1,14 +1,14 @@
-spring:
+﻿spring:
   profiles:
     active:
-    -dev
+      -dev
 ---
 spring:
-  profiles: dev #开发环境
+  profiles: dev
   application:
     name: microservicecloud-dept-dev
 ---
 spring:
-  profiles: test # 开发环境
+  profiles: test
   application:
     name: microservicecloud-dept-test
